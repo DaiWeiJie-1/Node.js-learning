@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello world Client</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$.ajax("http://127.0.0.1:8088",{async:true,dataType:'jsonp',jsonp:'callback',jsonpCallback:'helloworld'}).done(function(data){
+				console.log("data = " +JSON.stringify(data,'	'));
+				$("div.test-div p#p").text(data.body);
+			}).fail(function(xhr,status){
+				$(".test-div>#p").val("fail:" + xhr.status + ";staus =" + status);
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="test-div">
+	<p id="p">aaa</p>
+</div>
+</body>
+</html>
