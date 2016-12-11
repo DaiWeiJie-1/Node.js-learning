@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Express-CROS</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$.ajax("http://127.0.0.1:8088").done(function(data){
+			$("#p").text(data);
+		}).fail(function(xhr,status){
+			$("#p").text("err:" + status);
+		});
+	});
+	</script>
+</head>
+<body>
+<p id="p">aa</p>
+</body>
+</html>
