@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
+var crypt = require('crypto');
 
+/**
+ * 设置跨域访问CROS
+ */
 app.all("*",function(req,res,next){
     res.header('Access-Control-Allow-Origin','*');
     console.log("set Header");
