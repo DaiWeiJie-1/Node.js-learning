@@ -12,7 +12,7 @@ app.all("*",function(req,res,next){
 });
 
 app.get('/',function(req,res){
-    res.send('Hello world!');
+    res.send('Hello world');
 });
 
 var server = app.listen(8088,function(){
