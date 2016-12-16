@@ -121,6 +121,6 @@ function compareTxt(){
     androidTxtReadStream.on('error',function(error){
 
     });
-    
+        
 }
 

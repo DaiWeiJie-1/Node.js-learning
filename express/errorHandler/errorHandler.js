@@ -3,19 +3,19 @@ var app = express();
 
 app.get('/user/:id',function(req,res,next){
     
-    if(req.params.id === -1){
+    if(req.params.id == -1){
+        var err = new Error('404 not found');
         err.status = 404;
-        next(new Error('not fount'));
+        next(err);
     }else{
-        console.log('user');
-        res.sent('user');
+        console.log('user + ' + req.params.id);
+        res.send('user');
     }
 });
 
-app.use(function(error,req,res,next){
-    console.log('error');
-    res.status(error.status);
-    res.send('error');
+app.use(function(err,req,res,next){
+    console.log('error = ' + err);
+    res.send(err.message);
 });
 
 app.listen(8088);
