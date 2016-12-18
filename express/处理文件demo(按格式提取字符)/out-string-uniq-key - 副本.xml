@@ -1,56 +1,19 @@
-<resources>
-    <string name="app_name">Danale+</string>
-    <string name="create_account">创建新账号</string>
     <string name="request_verify_code">请求短信验证码... </string>
-    <string name="login_welcom">欢迎进入Danale</string>
-    <string name="login_slogan">以最简单的方式体验美好生活</string>
-    <string name="account_verify">账号验证</string>
-    <string name="phonenumber_email">手机号码/邮箱</string>
-    <string name="next">下一步</string>
-    <string name="update">更新</string>
     <string name="current_version">当前版本: </string>
     <string name="latest_version">当前为最新版本</string>
-    <string name="personalcenter">个人中心</string>
-    <string name="logout">注销</string>
-    <string name="ok">确定</string>
-    <string name="save">保存</string>
     <string name="resend">重发</string>
-    <string name="qrcode">二维码</string>
-    <string name="profile">头像</string>
-    <string name="nickname">昵称</string>
     <string name="myaccount">我的账户</string>
     <string name="account">账户</string>
     <string name="resetpwd">重置密码</string>
     <string name="acc_illegal">账户不合法，请重输。</string>
-    <string name="settings">设置</string>
     <string name="vedio_list_auto_play">视频列表自动播放</string>
-    <string name="terms_of_service">服务条款</string>
-    <string name="privacy_policy">隐私政策</string>
-    <string name="version">版本</string>
-    <string name="about">关于</string>
     <string name="help">帮助</string>
-    <string name="login">登录</string>
-    <string name="sign_up">注册</string>
     <string name="acc_null">账户不能为空</string>
     <string name="pwd_null">密码不能为空</string>
     <string name="change_pwd_success">修改密码成功</string>
-    <string name="countrycode">选择国家/区域</string>
-    <string name="take_photo">拍照</string>
     <string name="choose_an_album">相册</string>
-    <string name="cancel">取消</string>
-    <string name="photo">照片</string>
-    <string name="changePwd">修改密码</string>
-    <string name="newpwd">新密码</string>
     <string name="oldPwd">旧密码</string>
-    <string name="sign_up_law">注册即视为同意大拿公司</string>
-    <string name="sign_up_service">服务条款</string>
-    <string name="sign_up_private">隐私政策</string>
-    <string name="and">和</string>
-    <string name="return_tologin">返回登录</string>
-    <string name="create_new_acc">创建新帐号</string>
     <string name="code_send">验证码已发送至:</string>
-    <string name="enter_code">输入验证码</string>
-    <string name="set_pwd">设置密码</string>
     <string name="enter_pwd">请输入6~20密码</string>
     <string name="forgot_pwd">忘记密码?</string>
     <string name="fogot_pwd_title">忘记密码?</string>
@@ -58,79 +21,30 @@
     <string name="password_login_error_tips_more20">您输入的密码大于20位，请重新输入</string>
     <string name="password_login_error_tips_less6">您输入的密码小于6位，请重新输入</string>
     <string name="setpwd_success">设置密码成功</string>
-    <string name="password">密码</string>
-
     <string name="oldpwd_incorrect">旧密码错误</string>
     <string name="set_alias_success">修改昵称成功</string>
-
-    <string name="sunday">星期日</string>
-    <string name="day">星期日</string>
-    <string name="monday">星期一</string>
-    <string name="tuesday">星期二</string>
-    <string name="wednesday">星期三</string>
-    <string name="thursday">星期四</string>
-    <string name="friday">星期五</string>
-    <string name="saturday">星期六</string>
     <string name="week">星期</string>
-
-    <string name="local_file_today">今天</string>
-    <string name="local_file_yesterday">昨天</string>
     <string name="local_file_tomorrow">明天</string>
     <string name="local_file_just_now">刚刚</string>
     <string name="local_file_helf_hour_ago">30分钟前</string>
-    <string name="local_file_hour">小时</string>
     <string name="local_file_minute_ago">分钟前</string>
     <string name="local_file_hour_ago">小时前</string>
     <string name="local_file_hour_agos">小时前</string>
     <string name="local_file_day_ago">天前</string>
-
     <string name="family_qr_tip">扫描二维码，添加分享</string>
     <string name="member_qr_tip">扫描二维码，添加分享</string>
     <string name="qr_no_input">还未输入</string>
-
-
-    <!--main page-->
-    <string name="danale_main_empty_tip1">欢迎进入Danale</string>
     <string name="danale_main_empty_tip2">您将打开一个全新的生活方式。</string>
-    <string name="online">在线</string>
-    <string name="offline">离线</string>
-    <string name="main_menu_message">消息</string>
-    <string name="main_menu_file">本地文件</string>
-    <string name="main_menu_subscribe">订阅</string>
-    <string name="main_menu_share">分享</string>
-    <string name="main_menu_setting">设置</string>
-    <string name="temperature">温控</string>
-    <string name="bell">门铃</string>
-    <string name="ipc">摄像头</string>
-    <string name="garage">车库门</string>
-    <string name="light">智能灯</string>
-    <string name="curtain">智能窗帘</string>
     <string name="socket">插座&#160;/&#160;开关</string>
     <string name="hub">中控</string>
-    <string name="sensor">传感器</string>
     <string name="unknown">其他</string>
-
-    <!--sensor-->
     <string name="sensor_offline">传感器离线</string>
     <string name="sensor_off">传感器关闭</string>
-    <string name="doorway">门磁</string>
-    <string name="smokedector">烟感</string>
-    <string name="message_smoke_alarm">烟雾告警</string>
-    <string name="bell_watch">查看</string>
-
-
-    <!-- personal center-->
-
     <string name="sure_to_logout">确定注销么?</string>
-
-
-    <!-- settings-->
     <string name="allauto">3G/4G/wifi</string>
     <string name="wifi">Wifi</string>
-    <string name="off">关闭</string>
     <string name="vedio_playback">视频播放</string>
     <string name="iot_setting_unit">单位</string>
-    <string name="iot_setting_motion">移动侦测</string>
     <string name="air_night_mode_frequency">检测间隔</string>
     <string name="air_night_mode_frequency_15min">15分钟</string>
     <string name="air_night_mode_frequency_30min">30分钟</string>
@@ -139,21 +53,10 @@
     <string name="no_share_tips">你还未分享任何设备给你的好友，赶紧去分享吧，开启智慧生活</string>
     <string name="auto_configure_ip">自动配置IP</string>
     <string name="auto_configure_DNS">自动配置DNS</string>
-    <string name="sensitivity">灵敏度</string>
     <string name="detect_time">侦测时间</string>
-    <string name="motion_monday">一</string>
-    <string name="motion_tuesday">二</string>
-    <string name="motion_wedensday">三</string>
-    <string name="motion_thursday">四</string>
-    <string name="motion_friday">五</string>
-    <string name="motion_saturday">六</string>
-    <string name="motion_sunday">日</string>
-    <string name="bell_sensitivity_scope">侦测范围</string>
-    <string name="bell_sensitivity_time">移动时间</string>
     <string name="restart_device_success">重启设备成功!</string>
     <string name="reset_device_success">恢复出厂设置成功!</string>
     <string name="format_sd_card_success">格式化SD卡成功!</string>
-    <string name="hub_securitu_set">安防设置</string>
     <string name="hub_alarm_type">告警类型</string>
     <string name="set_security_success">设置安防模式成功</string>
     <string name="set_security_fail">设置安防模式失败</string>
@@ -161,258 +64,113 @@
     <string name="delete_dev_fail">删除设备失败</string>
     <string name="set_unit_success">设置单位成功</string>
     <string name="set_unit_fail">设置单位失败:</string>
-    <string name="night_mode_open">打开</string>
     <string name="minute">分钟</string>
     <string name="message_set">消息设置</string>
     <string name="camera_ring">门铃铃声</string>
-    <!--  门铃-->
-
     <string name="guest_visitor">有客来访</string>
-    <string name="ignore">忽略</string>
-    <string name="see">查看</string>
-
-    <!--video settings-->
-    <string name="change_screen_view">画面翻转</string>
-    <string name="video_quality">视频质量</string>
-    <string name="upright">正置</string>
-    <string name="horizontal">水平翻转</string>
-    <string name="vertical">竖直翻转</string>
     <string name="rotate_180">180º旋转</string>
-    <string name="smooth">流畅</string>
     <string name="clear">清晰</string>
-    <string name="hd">高清</string>
     <string name="set_quality_success">视频质量设置成功</string>
     <string name="set_flip_success">画面翻转成功</string>
-
-    <!--relog dialog-->
     <string name="kick_out_btn">重新登录</string>
     <string name="kick_out_title">下线提醒</string>
     <string name="kick_out_msg">您的账户已经在别处登录了</string>
-    <string name="from">来自</string>
-
-
-    <!-- addDevice -->
-    <string name="wire_connection">有线连接</string>
-    <string name="wifi_connection">无线连接</string>
     <string name="install_dev_alert">检查设备已上电!</string>
     <string name="install">安装</string>
     <string name="install_device">安装设备</string>
     <string name="network">配网</string>
-    <string name="connection">连接</string>
-    <string name="airlink">智能添加</string>
-    <string name="qrcode_scan">扫描二维码</string>
     <string name="ssid_not_null">Ssid不能为空</string>
     <string name="start_airlink_failed">开启智能添加失败</string>
-    <string name="id">ID:</string>
-    <string name="model">型号:</string>
-    <string name="company">公司:</string>
     <string name="already_add">已添加:</string>
     <string name="device_alias_can_not_be_null">设备名不能为空</string>
     <string name="select_connection_mode">请选择连接方式</string>
     <string name="enter_wifi_psw_hint">请输入Wifi密码</string>
     <string name="network_settings">网络配置</string>
     <string name="wait_for_dev_searching">正在搜索设备请等待...</string>
-    <string name="search_device">搜索设备</string>
-    <string name="device_list">设备列表</string>
     <string name="hint_name_of_device">输入设备名</string>
-    <string name="device_naming">设备命名</string>
     <string name="scan_dev_alert">扫描设备上的二维码或手动输入设备ID.</string>
     <string name="scan_account_alert">扫描用户的二维码或手动输入用户账号</string>
-    <string name="manual_input">手动输入</string>
-    <string name="scan_qr_code">扫描二维码</string>
     <string name="dev_name_illegal">设备名不合法</string>
-    <string name="dev_is_offline">设备离线</string>
     <string name="dev_is_add_by_other">该设备已被其它用户添加</string>
     <string name="dev_is_add_by_yourself">该设备已经被您添加了</string>
     <string name="try_to_connect">正在尝试连接设备...</string>
     <string name="dev_id">%1$s (ID)</string>
-    <string name="dev_model">%1$s (型号)</string>
-    <string name="dev_company">%1$s (厂商)</string>
-    <string name="cancel_connection">取消</string>
-    <string name="connecting_dev">连接设备</string>
     <string name="dev_online_failed">设备上线失败,是否再次尝试?</string>
-    <string name="input_dev_id">输入设备ID</string>
     <string name="input_user_account">输入用户账号</string>
     <string name="search_dev_count">搜索到%1$d个设备...</string>
-    <string name="rule_edit">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
     <string name="check_net_state">当前无网络连接,请检查手机网络状态</string>
-
-    <string name="on">打开</string>
     <string name="cancel_make_pair"></string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-
     <string name="navigation_drawer_open">打开导航栏</string>
     <string name="navigation_drawer_close">关闭导航栏</string>
-
-    <string name="action_example">Example action</string>
     <string name="socket_item">插孔</string>
-    <string name="action_settings">设置</string>
     <string name="socket_is_on">该设备开启</string>
     <string name="socket_is_off">该设备关闭</string>
     <string name="socket_name">插座 - %1s</string>
-    <string name="device_is_offline">设备离线</string>
     <string name="offline_tip2">请检查设备上电和网络配置</string>
     <string name="configure_network"><u>配置网络</u></string>
-    <string name="night_mode">夜间模式</string>
     <string name="night_mode_tips">设备进入夜间模式后，LCD屏幕将关闭，传感器的检测频率将按照您设定的时间间隔进行，避免影响您的睡眠。</string>
-
-    <string name="danale_tv_test">我们每个人都生活在各自的过去中，人们会用一分钟的时间去认识一个人，用一小时的时间去喜欢一个人，再用一天的时间去爱上一个人，到最后呢，却要用一辈子的时间去忘记一个人。</string>
-    <string name="product_info">产品信息</string>
     <string name="iot_setting_name">设备名</string>
-    <string name="iot_setting_location">位置</string>
-    <string name="aqi_night_mode">夜间模式</string>
     <string name="iot_setting_device_config">设备配置</string>
     <string name="iot_setting_device_firmware">固件</string>
-    <string name="delete">删除</string>
     <string name="iot_setting_product_owner">所有者</string>
-    <string name="iot_setting_product_deviceid">设备ID</string>
     <string name="iot_setting_product_producer">制造商</string>
-    <string name="iot_setting_product_type">产品类型</string>
-    <string name="loading">加载中...</string>
-
     <string name="warnning">警告</string>
     <string name="sure_delete_device">确定将此设备从您的帐号中删除?</string>
-    <string name="sure_delete_subscribe_device">删除设备后，云服务也会自动取消订阅，是否确认删除？</string>
-
-    <string name="today">今天</string>
-    <string name="yesterday">昨天</string>
-
-
-    <string name="danale_main_empty_add_devices">添加设备</string>
-
     <string name="user_not_exist">用户不存在</string>
     <string name="not_share_for_yourself">不能分享给自己哟</string>
-
     <string name="need_camera_permission">无法获取摄像头数据,请在手机应用权限管理中打开摄像头权限。</string>
-
-    <!-- addDevice -->
-
     <string name="light_color1">照明</string>
-    <string name="light_color2">温暖</string>
-    <string name="light_color3">清新</string>
-    <string name="light_color4">浪漫</string>
     <string name="light_color5">选择</string>
-    <string name="ipc_setting_alarm">告警通知</string>
-    <string name="ipc_setting_security">安全设置</string>
     <string name="setting_security_tip">当设备检测到异常情况，它会向你报告。基于不同的安全级别，设备会设定不同的对于异常情况的敏感度</string>
-    <string name="setting_security_motion">移动侦测</string>
-    <string name="setting_security_sound">声音告警</string>
-    <string name="alarm_level_low">低</string>
-    <string name="alarm_level_close">关闭</string>
-    <string name="alarm_level_medium">中</string>
-    <string name="alarm_level_high">高</string>
     <string name="setting_net_work">网络配置</string>
-    <string name="setting_time">时间设置</string>
-    <string name="setting_power">电源频率</string>
     <string name="setting_sd">Sd卡计划管理</string>
     <string name="disk_management">硬盘管理</string>
-    <string name="setting_initialization">初始化</string>
     <string name="setting_setwifi">无线网络设置</string>
     <string name="setting_lan_setting">局域网设置</string>
     <string name="setting_ip_config">IP配置类型</string>
     <string name="setting_ip_addr">IP地址</string>
-    <string name="setting_subnet_mask">子网掩码</string>
-    <string name="setting_gateway">网关</string>
     <string name="setting_dns_conf_type">DNS配置类型</string>
-    <string name="setting_preferred_dns">首选DNS</string>
-    <string name="setting_alternative_dns">备选DNS</string>
     <string name="setting_http_port">Http端口号</string>
     <string name="success">成功!</string>
-    <string name="iot_setting_time_setting">时间设置</string>
-    <string name="setting_device_time">设备时间</string>
-    <string name="setting_time_zone">设备时区</string>
     <string name="setting_sync_phone">同步手机</string>
     <string name="select_season">选择时令</string>
-    <string name="iot_setting_device_time">设备时间</string>
     <string name="summer">夏季</string>
     <string name="winter">冬季</string>
-    <string name="setting_time_date">日期</string>
-    <string name="setting_time_time">时间</string>
-    <string name="iot_setting_device_time_zone">时区</string>
     <string name="if_sync_phone">确定同步当前手机时间?</string>
-    <string name="iot_setting_device_init">初始化</string>
-    <string name="setting_restart_device">重启设备</string>
     <string name="setting_init_sd">格式化Sd卡</string>
-    <string name="setting_init_Disk">格式化硬盘</string>
     <string name="setting_reset">重置</string>
-    <string name="restore_factory_set">恢复出厂设置</string>
-    <string name="iot_setting_sd_manage">SD卡管理</string>
     <string name="everyday">每天</string>
-    <string name="workday">工作日</string>
-    <string name="weekend">周末</string>
-    <string name="custom">自定义</string>
     <string name="sd_manage_empty">没有录像计划!</string>
     <string name="add_plan">添加计划</string>
-    <string name="start_time">开始时间</string>
-    <string name="end_time">结束时间</string>
-    <string name="repeat">重复</string>
     <string name="not_valid_params">参数无效</string>
-
     <string name="offline_link"><u>重新配置网络</u></string>
-
-    <string name="msg_system_type">系统消息</string>
     <string name="message_share">%1$s &#160;分享了&#160; %2$s &#160;给你</string>
     <string name="message_owner_share_cancel">%1$s &#160;取消分享设备&#160;%2$1s&#160;</string>
     <string name="message_sharer_share_cancel">%1$s&#160; 删除了你分享的设备 &#160;%2$1s&#160;</string>
     <string name="message_share_agree">%1$s&#160; 接受了你分享的设备 &#160;%2$1s&#160;</string>
     <string name="message_share_refuse">%1$s&#160; 拒接了你分享的设备 &#160;%2$1s&#160;</string>
-    <string name="add">添加</string>
-    <string name="add_user">添加用户</string>
     <string name="select_dev_share">请选择设备分享给用户</string>
-    <string name="connected">连接</string>
     <string name="connect_to_network">配网</string>
-
     <string name="set_time_success">设置时间成功</string>
-
-    <!-- hub -->
     <string name="hub_offline">hub离线</string>
-
     <string name="hub_online">hub在线</string>
-
     <string name="hub_add_subdev">添加子设备</string>
-
     <string name="hub_cancel_subdev">取消添加</string>
     <string name="sylph">空气精灵</string>
     <string name="hub_make_pair_alert">正在配对子设备...</string>
-
-    <!-- temperature -->
-
     <string name="temp_offline">温控离线</string>
     <string name="temp_off">温控关闭</string>
     <string name="temp_mode">模式: %1$s</string>
     <string name="temp_indoor_temp">室内温度: %1$s</string>
-    <string name="temp_mode_heat">制热</string>
-    <string name="temp_mode_cool">制冷</string>
     <string name="not_support_time_tip">通风模式不支持定时</string>
-
-
     <string name="dev_not_yet_open_cloud">设备未开通云服务</string>
     <string name="dev_not_support_open_cloud">设备不支持开通云服务.</string>
     <string name="dev_cloud_has_expired">云服务已过期</string>
     <string name="dev_cloud_near_expire">云服务即将过期</string>
-    <string name="renew">续费</string>
-    <string name="expire">到期</string>
-    <string name="purchase">购买</string>
     <string name="free_trial_30_days">30天免费试用</string>
-    <string name="not_open">未开通</string>
-    <string name="has_expired">已过期</string>
     <string name="near_expire">云服务%1$d天后即将过期,请尽快续费</string>
-    <string name="not_support">不支持</string>
-    <string name="cloud_service">云服务</string>
     <string name="no_cloud_dev">您还没有设备,请赶快添加设备去吧</string>
-    <string name="subscribe">订阅</string>
-    <string name="examine">查看</string>
-    <string name="service_normal">服务正常</string>
-    <string name="service_abnormal">服务异常</string>
-    <!-- sd info -->
-    <string name="storage_manager">存储管理</string>
-    <string name="format">格式化</string>
-    <string name="capacity">容量</string>
     <string name="recorded_video">录像</string>
-    <string name="residual_space">剩余空间</string>
     <string name="have_no_sd_plan">SD卡计划为空，添加</string>
     <string name="status">状态</string>
     <string name="your_device_have_no_sdcard">设备未插入SD卡</string>
@@ -425,82 +183,24 @@
     <string name="formatted_success">格式化成功</string>
     <string name="formatted_fail">格式化失败</string>
     <string name="get_sd_information_fail">获取sd卡服务失败</string>
-
-
-    <string name="curtain_progress_status_closed">关闭</string>
-    <string name="curtain_progress_status_opened">打开</string>
-    <string name="time_task_toggle_text">开关</string>
-    <string name="timetask">定时任务</string>
-    <string name="once">一次</string>
     <string name="select_socket_item">选择插孔</string>
-
-    <string name="device_not_exist">设备ID不存在</string>
     <string name="device_id_illegal">设备ID非法</string>
     <string name="device_added_by_user">该设备已经被添加</string>
     <string name="add_device_success">添加设备成功</string>
-
-
-    <!-- 关于大拿 -->
     <string name="more_about">关于我们</string>
-    <string name="more_about_0">Danale Co., Ltd.</string>
-    <string name="more_about_1">&#160;&#160;&#160;&#160;Danale为客户提供完善的第三方物联云服务平台，为全球用户提供一个账号即可随时随地通过手机、平板、电脑、电视等终端，为您提供安全可靠的隐私保护，清晰流畅的浏览体验。</string>
-    <string name="more_about_2">&#160;&#160;&#160;&#160;Danale只提供云服务平台与客户端软件，与品牌设备厂家强强联合，共同打造一个安全、稳定、快捷的物联世界。</string>
-    <string name="more_about_3">&#160;&#160;&#160;&#160;Danale不对未经授权的设备负责。未经授权访问Danale平台和使用Danale云服务，所造成的服务停止、数据文件丢失、程序无法正常使用等损失，Danale将不对您的任何损失负责。</string>
-    <string name="more_about_4">&#160;&#160;&#160;&#160;Danale欢迎您对我们的软件、服务和网站提出宝贵意见和反馈(请使用中文或英文,谢谢)。</string>
-    <string name="more_about_5">&#160;&#160;&#160;&#160;服务邮箱：</string>
-    <string name="more_about_email">support@Danale.com\n</string>
-
-    <!--温控-->
-    <string name="temp_close">关</string>
-
-    <string name="temp_mode0">模式</string>
-    <string name="temp_mode0_heat">制热</string>
-    <string name="temp_mode0_cool">制冷</string>
-    <string name="temp_mode0_heat_cool">自动</string>
-    <string name="temp_mode0_aeration">通风</string>
-
-    <string name="temp_fan0">风速</string>
-    <string name="temp_fan0_auto">自动</string>
-    <string name="temp_fan0_high">高</string>
-    <string name="temp_fan0_middle">中</string>
-    <string name="temp_fan0_low">低</string>
-    <string name="temp_fan0_open">打开</string>
-
-    <string name="temp_scene0">场景</string>
-    <string name="temp_scene0_ect">节能</string>
-    <string name="temp_scene0_away">离家</string>
     <string name="temp_scene0_exit">退出场景</string>
-
     <string name="temp_indoor">室温 %1$s</string>
-    <string name="temp_schedule">定时</string>
-    <string name="temp_ok">确定</string>
-
-    <!--消息-->
     <string name="load_more">正在加载更多&#8230;</string>
-    <string name="message">消息</string>
-    <string name="message_clear">清空</string>
     <string name="message_sure_clear_all">确定删除所有消息吗？</string>
     <string name="message_no_any">没有任何消息</string>
     <string name="message_no_more">没有更多消息</string>
-    <!--系统消息-->
-    <string name="system_message">系统消息</string>
-    <string name="system_message_device_sharing">设备分享</string>
-    <string name="system_message_device_agree">同意</string>
-    <string name="system_message_device_reject">拒绝</string>
-    <string name="system_message_share">分享</string>
     <string name="system_message_to_me">给我</string>
     <string name="system_message_shared">分享的</string>
     <string name="system_message_i_agree">我同意了</string>
     <string name="system_message_i_reject">我拒绝了</string>
-    <string name="system_message_expired">已失效</string>
-    <string name="system_message_accepted">已接受</string>
-    <string name="system_message_rejected">已拒绝</string>
-    <string name="system_message_canceled">已取消</string>
-    <string name="system_message_invalid">已失效</string>
     <string name="system_message_cancel_share">取消分享</string>
     <string name="system_message_agree_share">同意了我分享的</string>
     <string name="system_message_reject_share">拒绝了我分享的</string>
-    <string name="system_message_delete_share">删除了我分享的</string>
     <string name="system_message_pay_subscribe_complete_title">订阅成功</string>
     <string name="system_message_pay_subscribe_cancel_title">订阅取消成功</string>
     <string name="system_message_pay_subscribe_arrears_title">订阅欠费</string>
@@ -510,209 +210,99 @@
     <string name="system_message_pay_subscribe_cancel_successfully">尊敬的用户，您好！您给设备%1$s订阅的云服务%2$s已成功取消，设备仍享有剩余时间的云服务，期待您的下次订阅！</string>
     <string name="system_message_pay_subscribe_arrears">尊敬的用户，您好！您给设备%1$s订阅的云服务%2$s已欠费，请及时充值或更新支付方式。系统会在24小时后再次尝试扣费，该期间我们仍正常提供服务，如果累计三次扣费不成功，系统将自动取消订阅！</string>
     <string name="system_message_pay_subscribe_charge_successfully">新一期的%1$s云存储服务已续费，在尾号为%2$s的信用卡扣除%3$s，请知悉,感谢您的使用！</string>
-    <!--告警消息-->
-    <string name="warn_message_today">今天</string>
-    <string name="warn_message_motion">移动侦测</string>
-    <string name="warn_message_sound">声音侦测</string>
     <string name="warn_message_infrared">红外侦测</string>
     <string name="warn_message_other">其它</string>
     <string name="warn_message_human_induction">人体感应</string>
     <string name="warn_message_smoke">烟雾探测</string>
-    <string name="warn_message_menci_open">门磁打开</string>
-    <string name="warn_message_menci_close">门磁关闭</string>
     <string name="warn_message_glass_broken">玻璃破碎</string>
     <string name="warn_message_visitor">来访</string>
-    <string name="warn_message_low_battery">低电量</string>
-    <string name="warn_message_wrong_password">密码错误</string>
-    <string name="warn_message_sos">SOS</string>
     <string name="warn_message_water_stains">水渍</string>
-    <string name="warn_message_online">设备上线</string>
-    <string name="warn_message_offline">设备离线</string>
     <string name="warn_message_battery_powered">电池供电</string>
     <string name="warn_message_sensor">探头</string>
-    <string name="warn_message_video_lost">视频丢失</string>
-    <string name="warn_message_video_block">视频遮挡</string>
-    <string name="warn_message_disk_full">磁盘满</string>
-    <string name="warn_message_disk_error">磁盘错误</string>
-    <string name="warn_message_disk_not_formatted">磁盘未格式化</string>
-    <string name="warn_message_garage_open">车库门打开</string>
-    <string name="warn_message_garage_close">车库门关闭</string>
-    <string name="warn_message_garage_state_change">车库门状态改变</string>
     <string name="warn_message_doorbell_pressed">门铃按下</string>
     <string name="warn_message_device_sys_msg">设备系统消息</string>
-    <string name="warn_message_answered">已接听</string>
-    <string name="warn_message_missed_call">未接来电</string>
     <string name="channel_no">通道号 : %1$d</string>
     <string name="warn_message_sensorbell_press">有人按门铃</string>
-    <!--分享-->
-    <string name="my_share">我的分享</string>
-    <string name="share_add_user">添加用户</string>
     <string name="share_delete_user">删除该好友，将会取消分享给他的所有设备？</string>
-    <string name="share_select_device">选择设备</string>
     <string name="share_select_device_share_to_user">请选择设备分享给用户</string>
-    <string name="share_send_invitation">发送邀请</string>
     <string name="share_send_invitation_ok">发送邀请成功</string>
     <string name="share_send_invitation_wait">已发送邀请，等待对方确认</string>
     <string name="share_no_devices_selected">未选中任何设备</string>
     <string name="share_sending_invitation">正在发送邀请&#8230;</string>
-    <string name="share_device">分享设备</string>
     <string name="share_other_device">分享其它设备</string>
     <string name="share_no_device">没有可分享的设备</string>
     <string name="share_cancel">取消分享该设备?</string>
     <string name="share_cancel_success">取消分享成功</string>
     <string name="share_cancel_failed">取消分享失败</string>
-
-    <!--空气精灵-->
     <string name="aqi_card_temperature">温度: %1$s</string>
     <string name="aqi_card_humidity">湿度: %1$s</string>
-
-    <string name="aqi_air_quality">空气质量</string>
-    <string name="aqi_pollution_index">污染指数</string>
-    <string name="aqi_pollutants">污染物</string>
-    <string name="aqi_comfort">舒适度</string>
-    <string name="aqi_air_humidity">空气湿度</string>
-
-    <string name="aqi_today">今天</string>
     <string name="aqi_trend">趋势图</string>
-
-    <string name="aqi_best">优</string>
-    <string name="aqi_good">良</string>
-    <string name="aqi_middle">轻度污染</string>
-    <string name="aqi_poor">中度污染</string>
-    <string name="aqi_worse">重度污染</string>
-    <string name="aqi_worst">爆表</string>
-
     <string name="aqi_cold">寒冷</string>
     <string name="aqi_cool">偏冷</string>
-    <string name="aqi_well">舒适</string>
     <string name="aqi_warm">偏热</string>
     <string name="aqi_hot">炎热</string>
-
-    <string name="aqi_drier">干燥</string>
-    <string name="aqi_dry">偏干</string>
-    <string name="aqi_moist">偏湿</string>
-    <string name="aqi_humid">潮湿</string>
-
-    <string name="aqi_pm25">PM2.5</string>
-    <string name="aqi_hcho">甲醛</string>
-    <string name="aqi_t">温度</string>
-    <string name="aqi_h">湿度</string>
-    <string name="air_night_mode_start">开始时间</string>
-    <string name="air_night_mode_end">结束时间</string>
     <string name="air_night_mode_toast">开始时间与结束时间不能相同</string>
     <string name="air_night_mode_toast1">开始时间不能大于结束时间</string>
     <string name="air_night_mode_toast2">结束时间不能小于开始时间</string>
-    <!--空气精灵-->
-
-    <string name="unselect_all">取消全选</string>
-    <string name="select_all">全选</string>
-    <string name="share">分享</string>
-    <string name="upload">上传</string>
-    <string name="Delete">删除</string>
-
     <string name="light_off">灯已关闭</string>
     <string name="selected">选中</string>
     <string name="item">个</string>
     <string name="delete_success">删除成功!</string>
-
-    <string name="Cancel">取消</string>
     <string name="sure_you_want_to_delete">确定删除吗?</string>
     <string name="switch_is_on">开关打开</string>
     <string name="switch_is_off">开关关闭</string>
-    <string name="smart_switch">智能开关</string>
     <string name="rename">重命名</string>
     <string name="abandon_all_changes">放弃所有修改?</string>
-    <string name="local_files_empty">暂无本地文件</string>
-
-    <string name="local_file">本地文件</string>
-
     <string name="cur_rom_ver">当前固件版本号:%1$s</string>
     <string name="rom_ver_is_lastest">当前版本已是最新版</string>
     <string name="exit_app">确定要离开Danale吗?</string>
-    <string name="check_success">校验成功</string>
-    <string name="check_fail">校验失败</string>
-    <string name="curtain_check">校验</string>
     <string name="select_channel">选择通道</string>
-    <string name="channel">通道</string>
-
     <string name="set_success">设置成功</string>
     <string name="set_fail">设置失败</string>
     <string name="color">颜色</string>
-
-    <!--视频类 start-->
-
     <string name="talk_failure">开启对讲失败</string>
     <string name="no_record">没有发现录像</string>
-    <string name="cloud">云服务</string>
     <string name="cloud_expire_tip">服务过期了，不能继续保存历史录像，赶紧去续费吧</string>
     <string name="cloud_free">您还没有开通云服务，绑定支付方式可以免费获赠30天的7*24小时云服务。</string>
     <string name="cloud_free_try">立即体验</string>
     <string name="cloud_free_title">免费试用云服务</string>
     <string name="record_prepare">录像正在合成……</string>
     <string name="channel_playing">通道%1$d正在播放</string>
-
-    <string name="offline_tip">设备离线</string>
     <string name="offline_help">请检查电源和网络是否正常.</string>
-    <string name="cloud_video">云录像</string>
     <string name="sd_record">SD卡录像</string>
     <string name="hard_record">硬盘录像</string>
     <string name="cloud_play_failure">播放云录像失败</string>
     <string name="video_start_failure">视频开启失败</string>
     <string name="audio_start_failure">音频开启失败</string>
     <string name="talk_start_failure">对讲开启失败</string>
-    <!--视频类 end-->
-
-    <string name="alias">昵称</string>
     <string name="net_disconnected_alert">当前网络不可用，请检查网络设置</string>
-
     <string name="save_album">保存到相册</string>
     <string name="file_save_success">文件已保存</string>
     <string name="save_file_fail">文件已保存失败, 请确定是否安装了内置存储卡</string>
     <string name="no_default_player">"  没有默认播放器！  "</string>
-
-    <!--固件升级-->
     <string name="firmware">固件</string>
     <string name="firmware_available">有新固件升级</string>
     <string name="firmware_device">1.设备固件版本:</string>
     <string name="firmware_can_update_to">可更新至</string>
     <string name="firmware_no_update">无可用更新</string>
     <string name="firmware_wifi">2.Wifi固件版本:</string>
-    <string name="firmware_update_content">更新内容</string>
-    <string name="firmware_downloading">下载中...</string>
-    <string name="firmware_updating">升级中...</string>
-    <string name="firmware_update_success">升级成功!</string>
-    <string name="firmware_update_failed">升级失败!</string>
     <string name="firmware_update_now">立即升级</string>
-    <string name="firmware_return">返回</string>
-    <string name="firmware_retry">重试</string>
-
     <string name="main_error_tip" >加载失败，请下拉刷新</string>
-    <string name="card_updating">升级中...</string>
-    <string name="care_update_fail">升级失败!</string>
     <string name="network_error0">网络异常，请重试</string>
-
 	<string name="not_install_this_app">未安装该APP</string>
-
     <string name="loading">加载中&#8230;</string>
-
     <string name="orders">订单</string>
     <string name="change_payment_method_successfully">更改支付方式成功</string>
     <string name="change_payment_method_failed">更改支付方式失败:</string>
     <string name="my_orders">我的订单</string>
-    <string name="close_orders">关闭</string>
-	<string name="no_video">暂无视频</string>
 	<string name="photo">&#160;相片</string>
     <string name="video">&#160;视频</string>
-	<string name="update_pd_title">更新</string>
     <string name="update_pd_message">正在下载...</string>
     <string name="update_pd_progress">"已下载  "</string>
     <string name="update_patch">正在生成APK... </string>
     <string name="update_wait">请稍等...</string>
     <string name="patch_done_install">打包完成，安装中...</string>
-    <string name="tips_latest">已是最新版本</string>
     <string name="dialog_title_has_update">有更新</string>
     <string name="button_text_ignore_update">暂不更新</string>
     <string name="button_text_update_now">立即更新</string>
     <string name="tips_mismatch_md5">下载文件MD5不匹配！</string>
-	
-</resources>
