@@ -4,8 +4,9 @@ var app = express();
 app.get('/user/:id',function(req,res,next){
     
     if(req.params.id === -1){
+        var err = new Error('not found');
         err.status = 404;
-        next(new Error('not fount'));
+        next(err);
     }else{
         console.log('user');
         res.sent('user');
