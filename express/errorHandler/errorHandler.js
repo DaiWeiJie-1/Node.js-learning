@@ -14,8 +14,8 @@ app.get('/user/:id',function(req,res,next){
 });
 
 app.use(function(err,req,res,next){
-    console.log('error = ' + err);
-    res.send(err.message);
+    console.log('error = ' + err.status);
+    res.send(err);
 });
 
 app.listen(8088);
