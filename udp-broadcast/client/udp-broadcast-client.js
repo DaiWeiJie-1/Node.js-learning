@@ -10,7 +10,7 @@ clientSocket.bind(55555,function(){
 
 var message = new Buffer('Hi,This is my broadCast');
 console.log('send msg');
-clientSocket.send(message,0,message.length,41234,'192.255.255.255',function(error,bytes){
+clientSocket.send(message,0,message.length,41234,'255.255.255.255',function(error,bytes){
     console.log('error : '+ error);
     // clientSocket.close();
 });
