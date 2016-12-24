@@ -1,6 +1,7 @@
 /// <reference path="./typings/index.d.ts" />
 var dgram = require('dgram');
 
+
 var serverSocket = dgram.createSocket('udp4');
 
 serverSocket.on('error',function(error){
@@ -21,4 +22,4 @@ serverSocket.on('listening',function(){
     + ":" + serverSocket.address().port);
 })
 
-serverSocket.bind(41234);
+serverSocket.bind(41030);
