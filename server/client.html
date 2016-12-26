@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Client</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$.ajax({
+				url:"http://127.0.0.1:45555/query",
+				type:"get",
+				beforeSend:function(){
+					console.log("beforeSend");
+				},
+				success:function(data){
+					console.log(data);
+					filltbody(data);
+				},
+				complete:function(){
+					console.log("complete");
+				},
+				error:function(respText,status,statusText){
+					console.log(respText);
+				}
+			});
+		});
+
+		function filltbody(data){
+			for(var i in data){
+				var tr = $('<tr/>');
+				var id = data[i]['id'];
+				var name = data[i]['name'];
+				var age = data[i]['age'];
+
+				for(var type in data[i]){
+					var val = data[i][type];
+					var td = $('<td/>');
+					td.html(val);
+					tr.append(td);
+				}
+				$('#tb').append(tr);
+			}
+			
+		}
+
+	</script>
+	<style type="text/css">
+		thead tr {
+			color:green
+		}
+
+		tbody tr {
+			color:blue
+		}
+	</style>
+</head>
+<body>
+<div>
+	<p id="p_get"></p>
+	<p id="p_post"></p>
+	<button id="btn_get">Get</button>
+	<button id="btn_post">Post</button>
+</div>
+
+<div id="div_table">
+	<table border="1px">
+		<thead>
+			<tr>
+				<th>id</th>
+				<th>name</th>
+				<th>age</th>
+			</tr>
+		</thead>
+
+		<tbody id="tb">
+			
+		</tbody>
+		
+	</table>
+</div>
+</body>
+</html>
