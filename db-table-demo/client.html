@@ -4,25 +4,54 @@
 	<title>Client</title>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript">
+		// $(document).ready(function(){
+		// 	$.ajax({
+		// 		url:"http://127.0.0.1:45555/query",
+		// 		type:"get",
+		// 		beforeSend:function(){
+		// 			console.log("beforeSend");
+		// 		},
+		// 		success:function(data){
+		// 			console.log(data);
+		// 			filltbody(data);
+		// 		},
+		// 		complete:function(){
+		// 			console.log("complete");
+		// 		},
+		// 		error:function(respText,status,statusText){
+		// 			console.log(respText);
+		// 		}
+		// 	});
+		// });
+
+		var fangfang = {
+			id:6,
+			name:'fangfang',
+			age:18,
+		}
+
 		$(document).ready(function(){
 			$.ajax({
-				url:"http://127.0.0.1:45555/query",
-				type:"get",
-				beforeSend:function(){
-					console.log("beforeSend");
-				},
-				success:function(data){
-					console.log(data);
-					filltbody(data);
-				},
-				complete:function(){
-					console.log("complete");
-				},
-				error:function(respText,status,statusText){
-					console.log(respText);
-				}
-			});
+						url:"http://127.0.0.1:45555/insert",
+						type:"Post",
+						data:fangfang,
+						dataType:"text",
+						beforeSend:function(){
+							console.log("beforeSend");
+						},
+						success:function(data){
+							console.log(data);
+						},
+						complete:function(){
+							console.log("complete");
+						},
+						error:function(respText,status,statusText){
+							console.log(respText);
+						}
+					});
 		});
+
+		
 
 		function filltbody(data){
 			for(var i in data){

@@ -31,6 +31,21 @@ function queryAllResult(callback){
     })
 }
 
+function insert(obj,callback){
+    pool.getConnection(function(err,connection){
+        if(err){
+            console.log("GetConnection err:" + err);
+        }else{
+            var sql = 'insert into students (id,name,age) values (' + obj.id + ',' + obj.name + ',' + obj.age +')';
+            connection.query(sql,function(err,rows){
+                for(var pos in rows){
+                    printObj(rows[pos]);
+                }
+            });
+        }
+    });
+}
+
 
 /**
  * 打印对象
@@ -47,4 +62,5 @@ function printObj(obj){
 module.exports = {
     query:queryAllResult,
     printO:printObj,
+    insert:insert,
 }
