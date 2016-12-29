@@ -46,11 +46,32 @@
 							console.log("complete");
 						},
 						error:function(respText,status,statusText){
-							console.log(respText);
+							console.log("err:" + respText);
 						}
 					});
 		});
 
+
+		// function postData(obj){
+		// 	$.ajax({
+		// 		url:"http://127.0.0.1:45555/insert",
+		// 		type:"Post",
+		// 		data:obj,
+		// 		dataType:"text",
+		// 		beforeSend:function(){
+
+		// 		},
+		// 		success:function(data){
+
+		// 		},
+		// 		complete:function(){
+
+		// 		},
+		// 		error:function(respText,status,statusText){
+
+		// 		}
+		// 	});
+		// }
 		
 
 		function filltbody(data){

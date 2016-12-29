@@ -36,11 +36,17 @@ function insert(obj,callback){
         if(err){
             console.log("GetConnection err:" + err);
         }else{
-            var sql = 'insert into students (id,name,age) values (' + obj.id + ',' + obj.name + ',' + obj.age +')';
+            var sql = 'insert into students (id,name,age) values (' + obj.id + ',"' + obj.name + '",' + obj.age +')';
+            console.log('insert sql : ' + sql);
             connection.query(sql,function(err,rows){
+                console.log('insert err : ' + err);
                 for(var pos in rows){
                     printObj(rows[pos]);
                 }
+                if(callback != null){
+                    callback(err,rows);
+                }
+                connection.release();
             });
         }
     });

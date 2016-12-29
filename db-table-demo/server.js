@@ -5,29 +5,6 @@ var bodyParse = require('body-parser');
 var app = express();
 
 
-// var array = new Array();
-// var xiaoming = {
-//     id:1,
-//     name:'xiaoming',
-//     age:13,
-// };
-
-// var xiaohong = {
-//     id:2,
-//     name:'xiaohong',
-//     age:12,
-// };
-
-// var xiaohei = {
-//     id:3,
-//     name:'xiaohei',
-//     age:11,
-// };
-
-// array.push(xiaoming);
-// array.push(xiaohong);
-// array.push(xiaohei);
-
 app.all('*',function(req,res,next){
     //设置跨域访问
     res.header("Access-Control-Allow-Origin","*");
@@ -37,7 +14,7 @@ app.all('*',function(req,res,next){
 /**
  * 解析post的body
  */
-app.use(bodyParser.json());
+app.use(bodyParse.json());
 app.use(bodyParse.urlencoded());
 
 app.get('/query',function(req,resp,next){
@@ -52,9 +29,26 @@ app.post('/insert',function(req,resp,next){
     var id = req.body.id;
     var name = req.body.name;
     var age = req.body.age;
+    var student = {};
+    student.id = id;
+    student.name = name;
+    student.age = age;
     console.log("insert: id = " + id + ", name = " + name + ",age = " + age);
-    // db.insert()
-    resp.send('app.insert');
+    db.insert(student,function(err,array){
+        if(err != null){
+            var e = new Error(err);
+            e.status= 505;
+            next(e);
+        }else{
+            resp.send('app.insert success');
+
+        }
+        db.printO(array);
+    });
+});
+
+app.use(function(err,req,res,next){
+    res.status(err.status).send(err.toString());
 });
 
 var server = app.listen(45555,function(){
